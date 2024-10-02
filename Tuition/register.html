@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOHELearn</title>
+
+    <!-- Font Awesome CDN link for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>FOHELearn <br><br> Register</h1>
+            <a href="login.html">
+                <button class="btn-login">Login</button>
+            </a>
+        </header>
+
+        <div class="form-container">
+            <h2>Personal Details | පුද්ගලික තොරතුරු</h2>
+            <form action="register_conn.php" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter username" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="initial">Initial | ආරම්භක අකුරු:</label>
+                    <input type="text" id="initial" name="initial" placeholder="Enter your initials">
+                </div>
+
+                <div class="form-group">
+                    <label for="birthday">Birthday | උපන් දිනය:</label>
+                    <input type="date" id="birthday" name="birthday" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Gender | ස්ත්‍රී පුරුෂ භාවය:</label>
+                    <select id="gender" name="gender">
+                        <option value="male">Male | පුරුෂ</option>
+                        <option value="female">Female | ස්ත්‍රී</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email | විද්‍යුත් තැපෑල:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address">
+                </div>
+
+                <div class="form-group">
+                    <label for="mobile">Mobile Phone | ජංගම දුරකථන:</label>
+                    <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number">
+                </div>
+
+                <div class="form-group">
+                    <label for="whatsapp">Whatsapp Number | Whatsapp අංකය:</label>
+                    <input type="tel" id="whatsapp" name="whatsapp" placeholder="Enter your WhatsApp number">
+                </div>
+
+                <div class="form-group">
+                    <label for="address1">Address Line 01:</label>
+                    <input type="text" id="address1" name="address1" placeholder="Enter address line 1">
+                </div>
+
+                <div class="form-group">
+                    <label for="address2">Address Line 02:</label>
+                    <input type="text" id="address2" name="address2" placeholder="Enter address line 2">
+                </div>
+
+                <div class="form-group">
+                    <label for="city">City | නගරය:</label>
+                    <input type="text" id="city" name="city" placeholder="Enter your city">
+                </div>
+
+                <div class="form-group">
+                    <label for="school">School | පාසල:</label>
+                    <input type="text" id="school" name="school" placeholder="Enter your school">
+                </div>
+
+                <h3>Other Details | වෙනත් තොරතුරු</h3>
+
+                <div class="form-group">
+                    <label for="exam">Exam Year | විභාග වර්ෂය:</label>
+                    <input type="number" id="exam" name="exam" placeholder="Enter your exam year">
+                </div>
+
+                <div class="form-group">
+                    <label for="medium">Medium | මාධ්‍යය:</label>
+                    <select id="medium" name="medium">
+                        <option value="sinhala">Sinhala</option>
+                        <option value="english">English</option>
+                        <option value="tamil">Tamil</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="source">How did you hear about us?</label>
+                    <input type="text" id="source" name="source" placeholder="Let us know how you heard about us">
+                </div>
+
+                <div class="form-group">
+                    <label for="profile_image">Profile Picture:</label>
+                    <input type="file" id="profile_image" name="profile_image" accept="image/*">
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">I agree to the Terms and Conditions</label>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Submit</button><br><br>
+
+                    Already have an account ? <a href="login.html"> Login</a>
+                </div>
+            </form>
+        </div>
+    </div><br>
+
+    <footer class="footer" align="center">
+        &copy; copyright @ 2024 by <span>Naveen Hapuarachchi</span> | All rights reserved!
+    </footer>
+</body>
+</html>

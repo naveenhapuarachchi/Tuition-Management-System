@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.register-btn {
+    background-color: #ffcc00;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #333;
+}
+
+.register-btn:hover {
+    background-color: #e6b800;
+}
+
+/* Hero Section */
+.hero {
+    background: #333 url('images/hero-bg.jpg') no-repeat center center/cover;
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Main Content Section */
+.main-content {
+    padding: 50px;
+    background: #fff;
+    border-radius: 8px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.service-section {
+    margin-bottom: 30px;
+}
+
+.service-section h2 {
+    color: #ffcc00;
+    margin-left: 10px;
+}
+
+.service-section p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer span {
+    color: #ffcc00;
+}

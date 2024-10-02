@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Fee Payment</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9; /* Light background color */
+            color: #333; /* Text color */
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto; /* Center the container */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            background-color: #fff; /* White background for the form */
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50; /* Green heading */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555; /* Darker text for labels */
+        }
+
+        input[type="number"], input[type="submit"] {
+            width: 100%; /* Full width */
+            padding: 10px;
+            margin: 10px 0; /* Space between inputs */
+            border: 1px solid #ddd; /* Light border */
+            border-radius: 4px; /* Rounded corners */
+            box-sizing: border-box; /* Include padding and border in element's total width and height */
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50; /* Green background */
+            color: white; /* White text */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: background-color 0.3s; /* Smooth transition */
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+
+        #error-message {
+            color: red;
+            text-align: center;
+            margin-top: 10px; /* Space above the error message */
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333; /* Dark footer */
+            color: white; /* White text in footer */
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .payment-info {
+            text-align: center;
+            margin: 20px 0;
+            font-weight: bold;
+            color: #4CAF50; /* Green text */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Course Fee Payment</h1>
+        <p class="payment-info">Please pay LKR 5,000 to access the course.</p>
+        <form id="paymentForm" action="process_payment.php" method="POST">
+            <input type="hidden" id="amount" name="amount" value="5000"> <!-- Hidden input for fixed amount -->
+            <div>
+                <label for="payment">Amount to Pay:</label>
+                <input type="number" id="payment" name="payment" value="5000" readonly> <!-- Display amount -->
+            </div>
+            <div>
+                <input type="submit" value="Pay Now">
+            </div>
+        </form>
+        <p id="error-message"></p>
+    </div>
+    
+    <script>
+        document.getElementById('paymentForm').onsubmit = function() {
+            const amount = document.getElementById('payment').value;
+            if (!amount) {
+                document.getElementById('error-message').innerText = "Please enter valid values.";
+                return false;
+            }
+            return true; // Proceed with submission
+        };
+    </script>
+    
+    <footer class="footer">
+        &copy; copyright @ 2024 by <span>Naveen Hapuarachchi</span> | all rights reserved!
+    </footer>
+</body>
+</html>
