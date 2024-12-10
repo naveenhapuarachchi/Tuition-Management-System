@@ -10,6 +10,8 @@ The Tuition Management System is a comprehensive web application designed to str
 - upload the databse code (lms_database.txt)
 
 - having a 2 tables
+- 1-user table
+- 2-attendance table
 
 CREATE TABLE IF NOT EXISTS users (
     id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
