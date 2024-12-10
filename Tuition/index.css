@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.register-btn {
+    background-color: #ffcc00;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #333;
+}
+
+.register-btn:hover {
+    background-color: #e6b800;
+}
+
+/* Hero Section */
+.hero {
+    background: #333 url('images/hero-bg.jpg') no-repeat center center/cover;
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero .register-btn {
+    text-decoration: none;
+}
+
+/* Features Section */
+.features {
+    padding: 50px;
+    background: #fff;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.feature-card {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 15px;
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h3 {
+    color: #ffcc00;
+}
+
+/* Why Us Section */
+.why-us {
+    background: #e6e6e6;
+    padding: 50px;
+    text-align: center;
+}
+
+.benefits {
+    display: flex;
+    justify-content: center;
+}
+
+.benefit {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.benefit img {
+    height: 100px;
+}
+
+.benefit h3 {
+    color: #333;
+    margin: 15px 0;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px;
+    background: #fff;
+    text-align: center;
+}
+
+.testimonial {
+    margin: 20px auto;
+    width: 60%;
+    border-left: 4px solid #ffcc00;
+    padding-left: 20px;
+}
+
+.testimonial h4 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer span {
+    color: #ffcc00;
+}
