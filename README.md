@@ -53,8 +53,6 @@ CREATE TABLE IF NOT EXISTS attendance (
 );
 
 
-Here's a structured GitHub README description based on your documentation:
-
 ---
 
 # Web-Based - Tuition Class Management System (FOHELearn)
