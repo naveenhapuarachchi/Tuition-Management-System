@@ -75,6 +75,17 @@ CREATE TABLE IF NOT EXISTS attendance (
 ## 📌 Overview  
 The **Tuition Class Management System** is a web-based platform designed to automate administrative tasks for ABC Institute, replacing error-prone manual processes (e.g., spreadsheets, paper records) with a centralized solution. It streamlines student registration, class scheduling, fee management, attendance tracking, and performance monitoring for admins, lecturers, and students.  
 
+         Images
+
+![website home](https://github.com/user-attachments/assets/75819825-04bf-4b1e-b60d-745e36de9438)
+![website about](https://github.com/user-attachments/assets/195431e1-4e98-4dea-8a17-f047fd82b1f7)
+![LMS Register](https://github.com/user-attachments/assets/98dc8dec-ca23-440e-89a3-06e3719b39e8)
+![LMS Login](https://github.com/user-attachments/assets/604820b5-132f-4082-a374-6cdbc8ee7522)
+![LMS Dashboard](https://github.com/user-attachments/assets/0e8c521a-0d1a-4e24-ba8d-53d08e41fcc8)
+
+
+
+
 ## 🎯 Key Features  
 ### **Admin Panel**  
 - Manage student/lecturer profiles (add, edit, delete).  
