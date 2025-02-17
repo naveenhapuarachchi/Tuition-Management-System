@@ -6,7 +6,7 @@ This is Assignment of our Campus,
 
          [Naveen Hapuarachchi] 
          
-![](https://github.com/naveenhapuarachchi), 
+![Naveen Hapuarachchi](https://github.com/naveenhapuarachchi), 
 
          [Malsha Pinto]
 (https://github.com/malshapinto)
