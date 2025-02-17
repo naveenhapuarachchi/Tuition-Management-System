@@ -1,5 +1,9 @@
 This is Assignment of our Campus,
-Owners - [Naveen Hapuarachchi](https://github.com/naveenhapuarachchi)
+
+         Owners - 
+
+         [Naveen Hapuarachchi](https://github.com/naveenhapuarachchi), 
+
          [Malsha Pinto](https://github.com/malshapinto)
 
 # Tuition-Management-System
