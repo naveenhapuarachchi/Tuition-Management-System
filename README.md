@@ -148,5 +148,3 @@ This project is licensed under the MIT License.
 Contributions are welcome! Fork the repository, create a branch, and submit a PR.  
 
 ---
-
-This README provides a concise yet comprehensive overview of the system, making it easy for users and developers to understand its purpose, features, and technical details. Adjust badges, licensing, or sections as needed for your repo!
