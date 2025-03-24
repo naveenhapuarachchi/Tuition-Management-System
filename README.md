@@ -2,11 +2,11 @@ This is Assignment of our Campus,
          
          Subject - Advanced Networking
 
-         Owners - 
+         Owners - Naveen Hapuarachchi, Malsha Pinto
 
-![Naveen Hapuarachchi](https://github.com/naveenhapuarachchi), 
+[Naveen Hapuarachchi](https://github.com/naveenhapuarachchi), 
 
-![Malsha Pinto](https://github.com/malshapinto)
+[Malsha Pinto](https://github.com/malshapinto)
 
 # Tuition-Management-System
 The Tuition Management System is a comprehensive web application designed to streamline the management of student registrations, course enrollments, and payments for educational institutes and tuition centers. It simplifies the administrative tasks associated with managing students and course details, 
